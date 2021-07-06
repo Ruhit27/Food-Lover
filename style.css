@@ -1,0 +1,158 @@
+.color-site-name{
+    color:crimson;
+}
+body{
+    font-family: 'Archivo Narrow', sans-serif;
+    margin:0;
+    
+    
+}
+.menu-section{
+    display:flex;
+}
+.menu-half-width{
+    width:50%;
+    padding:0px 20px;
+    margin-right:1%;
+}
+
+.favicon{
+    display:flex;
+    margin-bottom:0px ;
+}
+.menu-button{
+    text-decoration: none;
+    background-color: rgb(240, 172, 192);
+    color:gray;
+    border-radius: 5px;
+    margin:0px 2px;
+    padding:8px 30px;
+    font-size: 18px;
+}
+.menu-button:hover{
+    color:white;
+    border-radius: 5px;
+    background-image: linear-gradient(red black);
+}
+.top-section{
+    display:flex;
+}
+.top-heading{
+    font-size:45px;
+}
+.top-paragraph{
+    font-size:20px;
+}
+.half-width{
+    width:50%;
+    margin:50px;
+    padding:30px
+}
+.top-img{
+    width:100%;
+    height:100%;
+}
+.button-link{
+    font-size:20px;
+    text-decoration: none;
+    color:whitesmoke;
+    background-image: linear-gradient(rgb(214, 20, 59),rgb(34, 2, 31));
+    padding:10px 25px;
+    border-radius:20px;
+    opacity:0.8;
+    box-shadow: 0px 0px 10px rgb(141, 22, 22) ;
+}
+.margin-button{
+    margin-top:70px;
+}
+.button-link:hover{
+    opacity:1;
+}
+.about-me-section{
+    display:flex;
+    background-image: url(Frame58.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+  
+}
+.half-width-2{
+    width:50%;
+    margin:20px 10px 0px 60px;
+
+}
+.grey-heading{
+    color:grey;
+    font-size: 45px;
+}
+.recipe-text{
+    width:40%;
+    margin:5% 30% 0% 30%;
+    text-align: center;
+}
+.recipe-section{
+    display:flex;
+}
+.One-third-width{
+    width:50%;
+    margin:10% 5% 10% 5%;
+    box-shadow: 0px 0px 8px 8px lightgray;
+    padding:50px;
+    border-radius: 20px;
+    image-resolution: 20px;
+   
+    
+}
+.end-section{
+    display:flex;
+    margin: 10px 70px 20px 70px;
+    box-shadow: 0px 0px 8px 8px lightgray;
+    border-radius: 20px;
+}
+.social-media{
+    width:33%;
+    padding:20px  120px;
+    text-align: center;
+    margin-bottom:20px;
+    
+}
+.follower-count{
+    font-size:45px;
+}
+footer{
+    color:whitesmoke;
+    background-color: black;
+    text-align: center;
+    margin-top: 100px;
+    padding-top:15px;
+    padding-bottom:70px;
+}
+footer h1{
+    color: rgb(241, 18, 18);
+}
+.footer-text-color{
+    color:rgb(220, 20, 37);
+    
+}
+.customer-review{
+    display:flex;
+}
+.review-circle-box{
+    margin:0 5% 0 5%;
+    width:20%;
+    border:5px solid;
+    
+    padding:2%;
+    border-image: linear-gradient(crimson,orange);
+    border-image-slice:1;
+    
+}
+#flexible-circle{
+    display:flex;
+    padding:10px 100px 10px 100px;
+}
+.customer-name{
+    color:green;
+    font-size: 15px;
+}
